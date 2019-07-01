@@ -1,0 +1,15 @@
+{
+    "_comment_SourceAMI" : "Source AMI AWS Linux",
+    "_comment_TargetVPC": "Target VPC Chiranjeevi",
+    "vpc_id": "vpc-vpcid",
+    "subnet_id": "subnet-subnetid",
+    "_comment_SG": "This Sg is enabled with SSH",
+    "security_group_id": "sg-groupid",
+    "instance_type": "t2.micro",
+    "region": "us-east-1",
+    "device_name": "/dev/xvda",
+    "volume_type": "gp2",
+    "ssh_username": "ec2-user",
+    "source_ami":"ami-source_base",
+    "kms_key_id": "arn:aws:kms:us-east-1:1234:key/key_id"
+}
